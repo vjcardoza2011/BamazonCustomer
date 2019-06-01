@@ -79,7 +79,7 @@ function promptUserPurchase() {
               if (err) throw err;
 
               console.log(
-                "Your oder has been placed! Your total is $" +
+                "Your order has been placed! Your total is $" +
                   productData.price * quantity
               );
               console.log("Thank you for shopping with us!");
