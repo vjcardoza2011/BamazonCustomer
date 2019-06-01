@@ -25,10 +25,10 @@ The Customer View allows the user to view the current inventory of store items: 
 <p> To run this application, please follow the below steps: </p>
 
 ```
-    <p>git clone https://github.com/vjcardoza2011/BamazonCustomer.git</p>
-    <p>cd BamazonCustomer</p>
-    <p>npm install</p>
-    <p>node bamazon.js</p>
+    git clone https://github.com/vjcardoza2011/BamazonCustomer.git
+    cd BamazonCustomer
+    npm install
+    node bamazon.js
 ```
 
 ---
