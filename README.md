@@ -14,7 +14,7 @@ The Customer View allows the user to view the current inventory of store items: 
 
 <p>The app then prompts the users with two messages:</p>
 
-- The first asks the user the ID of the product they would like to buy.
+- The first message asks the user the Item ID # of the product they would like to buy.
 - The second message asks how many units of the product they would like to buy.
 
 <p>Once the customer has placed the order, the application checks if the store has enough of the product to meet the customer's request. If the store has enough of the product, the customer's order is fulfilled as follows:
@@ -23,11 +23,12 @@ The Customer View allows the user to view the current inventory of store items: 
 - Once the update goes through, the total cost of the customer's purchase will be shown.
 
 <p> To run this application, please follow the below steps: </p>
+
 ```
-git clone https://github.com/vjcardoza2011/BamazonCustomer.git
-cd BamazonCustomer
-npm install
-node bamazon.js
+    <p>git clone https://github.com/vjcardoza2011/BamazonCustomer.git</p>
+    <p>cd BamazonCustomer</p>
+    <p>npm install</p>
+    <p>node bamazon.js</p>
 ```
 
 ---
