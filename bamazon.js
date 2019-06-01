@@ -56,7 +56,7 @@ function promptUserPurchase() {
         // If the user has selected an invalid item ID, data will be empty
 
         if (data.length === 0) {
-          console.log("ERROR: Invalid Item ID. Please select a valid item ID.");
+          console.log("ERROR: Invalid Item ID. Please select a valid Item ID.");
           displayInventory();
         } else {
           var productData = data[0];
@@ -77,7 +77,7 @@ function promptUserPurchase() {
             // Update the inventory
             connection.query(updateQueryStr, function(err, data) {
               if (err) throw err;
-
+              // Prints to console if order has bee placed correctly
               console.log(
                 "Your order has been placed! Your total is $" +
                   productData.price * quantity
@@ -91,6 +91,7 @@ function promptUserPurchase() {
               connection.end();
             });
           } else {
+            // Will print to console if there isn't enough product in stock
             console.log(
               "Sorry, there is not enough product in stock, your order can not be placed as is."
             );
