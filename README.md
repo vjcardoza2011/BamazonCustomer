@@ -37,4 +37,4 @@ The Customer View allows the user to view the current inventory of store items: 
 
 Click the link below to watch my Bamazon Customer Demo:
 
-[https://drive.google.com/open?id=1aRhxPDmAD*1nZffYqQUfc-\_0e6BUvYq*](BamazonCustomerDEMO)
+[BamazonCustomerDEMO](https://drive.google.com/open?id=1aRhxPDmAD_1nZffYqQUfc-_0e6BUvYq_)
